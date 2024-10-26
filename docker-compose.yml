@@ -25,6 +25,10 @@ services:
     tty: true
     depends_on:
       - db
+  mailhog:
+    image: mailhog/mailhog:v1.0.0
+    ports:
+      - '8025:8025'
 volumes:
   mysql_volume:
   node_modules:
