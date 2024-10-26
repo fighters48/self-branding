@@ -16,7 +16,7 @@ COPY Gemfile Gemfile.lock /self-branding/
 
 RUN bundle install
 
-COPY package.json yarn.lock /test_app/
+COPY package.json yarn.lock /self-branding/
 
 RUN yarn install
 
