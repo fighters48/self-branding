@@ -7,4 +7,9 @@ module.exports = {
     '../self-branding/app/javascript/**/*.js'
   ],
   plugins: [require("daisyui")],
+  theme: {
+    fontFamily: {
+	    roboto: ['roboto', 'sans-serif'],
+    }
+  }
 }
