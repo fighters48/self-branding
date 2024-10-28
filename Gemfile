@@ -61,6 +61,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem "lookbook", ">= 2.3.4"
 end
 
 group :test do
