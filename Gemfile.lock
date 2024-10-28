@@ -278,6 +278,7 @@ DEPENDENCIES
   stimulus-rails
   turbo-rails
   tzinfo-data
+  view_component
   web-console
 
 RUBY VERSION
