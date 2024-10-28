@@ -1,9 +1,9 @@
 module.exports = {
   content: [
-    './app/views/**/*.html.erb',
-    './app/helpers/**/*.rb',
-    './app/assets/stylesheets/**/*.css',
-    './app/javascript/**/*.js'
+    '../self-branding/app/views/**/*.html.erb',
+    '../self-branding/app/helpers/**/*.rb',
+    '../self-branding/app/assets/stylesheets/**/*.css',
+    '../self-branding/app/javascript/**/*.js'
   ],
-  plugins: [require('daisyui')]
+  plugins: [require("daisyui")],
 }
